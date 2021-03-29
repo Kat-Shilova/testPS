@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create cocktail</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">Create your cocktail!</h1>
+    </header>
+    <div class="container">
+        <form action="" class="form">
+            <h2 class="form__title">Choose ingredients</h2>
+            <p class="input__desc">
+                Джин, мл
+            </p>
+            <input  id="ingredient-1" data-ingredient-input="1" type="number" value="100" class="input">
+            <button data-ingredient-button="1" type="button" class="input__button">
+                100
+            </button>
+            <p class="input__desc">
+                Тоник, мл
+            </p>
+            <input id="ingredient-2" data-ingredient-input="2" type="number" value="100" class="input">
+            <button data-ingredient-button="2" type="button" class="input__button">
+                100
+            </button>
+            <p class="input__desc">
+                Анансовый сок, мл
+            </p>
+            <input id="ingredient-3" data-ingredient-input="3" type="number" value="100" class="input">
+            <button data-ingredient-button="3" type="button" class="input__button">
+                100
+            </button>
+            <p class="input__desc">
+                Грейпфрутовый сок, мл
+            </p>
+            <input id="ingredient-4" data-ingredient-input="4" type="number" value="100" class="input">
+            <button data-ingredient-button="4" type="button" class="input__button">
+                100
+            </button>
+            <p class="input__desc">
+                Ликер, мл
+            </p>
+            <input id="ingredient-5" data-ingredient-input="5" type="number" value="100" class="input">
+            <button data-ingredient-button="5" type="button" class="input__button">
+                100
+            </button>
+        </form>
+        <div class="counter">
+            <div class="droppable"></div>
+            <button class="button__count">Посчитать объём</button>
+        </div>
+    </div>
+</body>
+</html>

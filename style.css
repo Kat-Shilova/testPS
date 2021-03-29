@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 400;
+    src: url("fonts/SFProDisplay-Regular.woff2") format("woff2"),
+    url("fonts/SFProDisplay-Regular.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 700;
+    src: url("fonts/SFProDisplay-Bold.woff2") format("woff2"),
+    url("fonts/SFProDisplay-Bold.woff") format("woff");
+    font-display: swap;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    min-width: 320px;
+    margin: 0;
+    background-color: #000; /* под проект */
+    font-family: "San Francisco", Arial, sans-serif; /* в "" свой шрифт под проект*/
+
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1;
+}
+
+button, input {
+    font: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+h1, h2, h3, p, ul {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    margin: 50px auto;
+}
+
+.header__title {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.form__title {
+    margin: 0 auto 30px;
+}
+
+
+.form input {
+    width: 200px;
+    height: 50px;
+    margin-right: 10px;
+    padding-left: 10px;
+    border: none;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.form button {
+    position: absolute;
+    width: 70px;
+    height: 50px;
+    background-color: cadetblue;
+    border: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.input__desc {
+    margin: 20px 0 10px;
+    font-size: 20px;
+}
+
+.input__volume {
+    margin: auto 15px;
+    color: #aaa;
+}
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.droppable {
+    width: 500px;
+    height: 500px;
+    margin-bottom: 20px;
+    background-color: rgb(25, 84, 102);
+    border-radius: 10px;
+}
+
+.button__count {
+    width: 500px;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 24px;
+    line-height: 1.5;
+    background-color: rgba(33, 59, 83, 0.568);
+    border: none;
+    border-radius: 10px;
+}
